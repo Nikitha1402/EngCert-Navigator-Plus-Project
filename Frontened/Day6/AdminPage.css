@@ -1,0 +1,49 @@
+/* AdminPage.css */
+
+.admin-container {
+  display: flex;
+  padding: 220px;
+}
+
+.sidebar {
+  width: 200px; /* Adjust the width as needed */
+  height: 100%;
+  background-color: #2c3e50; /* Sidebar background color */
+  padding-top: 20px;
+  color: white;
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #34495e; /* Hover color */
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+  margin-bottom: 590px; /* Assuming you want to add space at the bottom */
+}
+
+.kab {
+  margin-left: 220px; /* Adjust the margin-left to match the new sidebar width */
+}
