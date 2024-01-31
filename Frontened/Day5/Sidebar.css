@@ -1,0 +1,28 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 300px;
+    background-color: #c1bbce;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  button {
+    border: none;
+    color: rgb(61, 59, 59);
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Add margin-bottom to create space between buttons */
+  }
+  
+  .active {
+    background-color: #777;
+  }
+  

@@ -1,0 +1,25 @@
+/* NewQuiz.css */
+
+.quiz-container {
+    display: flex;
+    height: 100vh; /* Make sure the container takes full height of the viewport */
+  }
+  
+  .quiz {
+    flex: 1; /* Take remaining space in the container */
+    padding: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add space between options */
+  }
+  
+  .quiz-results {
+    flex: 1; /* Take remaining space in the container */
+    padding: 20px;
+  }
+  
+  /* Add any additional styling as needed */
+  

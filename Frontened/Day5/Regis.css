@@ -1,0 +1,58 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/937/589/non_2x/online-education-application-learning-worldwide-on-phone-mobile-website-background-social-distance-concept-the-classroom-training-course-library-illustration-flat-design-vector.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1650px;
+}
+
+.registration-form {
+  max-width: 500px;
+  margin: 20px;
+  padding: 13px; /* Reduced top and bottom padding */
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.registration-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.registration-form form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.registration-form label {
+  margin-bottom: 10px;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.koj {
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #8d91cf;
+}

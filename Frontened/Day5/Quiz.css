@@ -1,0 +1,17 @@
+/* Quiz.css */
+
+.quiz-container {
+  display: flex;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .quiz-container {
+    flex-direction: column;
+  }
+}
