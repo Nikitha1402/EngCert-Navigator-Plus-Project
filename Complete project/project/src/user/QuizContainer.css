@@ -1,0 +1,11 @@
+/* QuizContainer.css */
+
+.quiz-container {
+    background-color: #f9f8fb; /* Set the background color as needed */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat;
+
+    padding: 20px; /* Add padding to the container */
+  }
+  

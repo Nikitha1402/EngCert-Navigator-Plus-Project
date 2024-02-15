@@ -1,0 +1,69 @@
+.cou
+{
+  background-size: cover;
+  margin-bottom: 700px;
+  max-width: fit-content;
+  color: rgb(111, 113, 114);
+
+  
+}
+.app-wrapper {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.educationworld.in/wp-content/uploads/2018/12/onlinecourse-1-500x334-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.media-container {
+  margin-bottom: 25rem;
+  width: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 8px #999;
+  flex-direction: row;
+  margin: 0.6rem;
+  background-color: rgb(121, 118, 118);
+  height:min-content;
+  float: inline-start;
+  margin-left: 50px;
+  gap: 20px;
+
+
+
+
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+
+  }
+  
+  .card-title {
+    margin: 0.5rem 5%;
+  }
+  
+  .card-description {
+    margin: 0.5rem 5%;
+  }
+  
+  .card-btn {
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+
+  }
+
+
+  .h1{
+    
+    position: center;
+    margin-bottom: 50%;
+  }

@@ -1,0 +1,20 @@
+/* About.css */
+
+/* Apply global styles or import a specific styling library if needed */
+
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-title {
+    color: #007bff; /* Example color, you can adjust this */
+  }
+  
+  .about-content {
+    line-height: 1.6;
+  }
+  
+  /* Add more styles as needed */
+  

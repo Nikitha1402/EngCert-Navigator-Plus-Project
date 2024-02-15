@@ -1,0 +1,96 @@
+/* General styles */
+.feed {
+  font-family: Arial, sans-serif;
+ background-image: url("https://st3.depositphotos.com/3662505/12489/i/600/depositphotos_124895920-stock-photo-beautiful-designers-working.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  height: 100vh; /* Set the height to cover the entire viewport */
+  margin: 0; /* Remove default margin to ensure full coverage */
+  display: flex;
+  width: 1550px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(33, 33, 33);
+}
+
+.myse {
+  margin-bottom: 250px; /* Adjust as needed */
+  margin-left: 50px;
+  align-items: center;
+  color: rgb(225, 217, 217);
+
+
+}
+
+input {
+  margin-bottom: 255px;
+  padding: 5px;
+  width: 200px; /* Adjust as needed */
+}
+
+.logg {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #6f9ade;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1500px;
+  margin-bottom: 255px;
+
+}
+
+th,
+td {
+  border: 1px solid #e8dada;
+  padding: 8px;
+}
+
+th {
+  background-color: #7b8be3;
+  color: rgb(247, 236, 236);
+}
+
+/* Styles for the component */
+.FeesManagement {
+  margin: 20px;
+}
+
+.FeesManagement input[type="text"] {
+  width: 200px;
+}
+
+.FeesManagement button {
+  margin-left: 10px;
+}
+
+.FeesManagement table {
+  margin-top: 20px;
+}
+
+.FeesManagement th,
+.FeesManagement td {
+  text-align: left;
+}
+
+.loo {
+  align-items: center;
+}
+
+.feel {
+  width: 400px;
+}
+
+.ter {
+  color: aliceblue;
+}

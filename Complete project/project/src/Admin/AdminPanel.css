@@ -1,0 +1,14 @@
+/* AdminPanel.css */
+
+.admin-panel-container {
+    display: flex;
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Add additional styling for your content as needed */
+  
+  
